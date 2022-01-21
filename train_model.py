@@ -62,7 +62,7 @@ history = model.fit(train_dataset, steps_per_epoch=128,
 _, acc = model.evaluate(test_dataset, steps=len(test_dataset), verbose=1)
 print('> %.3f' % (acc * 100.0))
 
-model.save('voice_recognizer_model')
+model.save('voice_recognition_model')
 
 
 plt.plot(history.history['accuracy'])
