@@ -38,7 +38,7 @@ def recognize_voice(path):
 image_size = 100
 waveform_length = 100000
 
-model = load_model('voice_recognizer_model')
+model = load_model('voice_recognition_model')
 
 
 recognize_voice('calm.mp3')
