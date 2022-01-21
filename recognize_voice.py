@@ -41,7 +41,4 @@ waveform_length = 100000
 model = load_model('voice_recognition_model')
 
 
-recognize_voice('calm.mp3')
-recognize_voice('kid.mp3')
-recognize_voice('out.wav')
-recognize_voice('ytmale.mp3')
+recognize_voice('example.mp3')
