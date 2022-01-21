@@ -1,5 +1,5 @@
 # voice-classifier
-##Simply TF classifier model that recognize male/female speech.
+## Simply TF classifier model that recognize male/female speech.
 
 ### Scripts
 `train_model.py` - model that trains to classify voice spectrograms
